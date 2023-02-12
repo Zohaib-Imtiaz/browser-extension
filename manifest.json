@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "Vite React Chrome Extension",
+    "version": "1.0.0",
+    "content_scripts": [{
+        "js": ["src/main.jsx"],
+        "matches": ["<all_urls>"]
+      }]
+  }
